@@ -21,18 +21,22 @@
 
 Datos sobre la __movilidad de personas en toda España__. Desplazamientos entre localidades y entre distritos con matriz de más de 2500 puntos de origen y destino. Este dataset ha sido creado enriqueciendo y limpiando los datos en bruto proporcionados por el Ministerio de Transportes, Movilidad y Agenda Urbana, en base al posicionamiento de teléfonos móviles.
 
-Las características de este dataset son las siguiente:
+Las características de este dataset son las siguientes:
 
 * __Frecuencia de actualización__: diariamente, con un lag de 1-2 días
-* __Volumen estimado__: 3-5 millones de registros para cada día
+* __Volumen estimado__: 3-5 millones de registros cada día
 * __Histórico__: disponible desde Febrero de 2020 en adelante
 
 El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#movilidad-de-personas-dataset), plataforma de referencia de datos externos en España. 
 
-En este repositorio contiene los siguientes recursos:
+Este repositorio contiene los siguientes recursos:
 
 * La documentación completa del dataset.
-* Una muestra representativa (10%) del mismo disponible para su evaluación y uso gratuito.
+* Una muestra representativa del mismo disponible para su evaluación y uso gratuito.
+
+## Muestra
+
+La muestra se encuentra disponible para descarga en el siguiente [link](https://github.com/Data-Market/movilidad-de-personas/blob/main/movilidad-de-personas-sample.csv).
 
 ## Documentación
 
@@ -57,7 +61,3 @@ A continuación se muestran las columnas de las que consta el dataset en el form
 | distance             | str      | Intervalo de distancia (en kms) en el que se agrupan los desplazamientos.                                                             | 010-050                                                                                                                          |
 | n_trips              | int      | Número de desplazamientos de distancia comprendida en el intervalo "distance" que comienzan a la hora "hour_of_day".                                                                                 | 7706                                                                                                                             |
 | trips_km             | int      | Suma de los kms totales de los viajes realizados con inicio "hour_of_day" en el día "date".                                                                   | 310253                                                                                                                           |
-
-## Muestra
-
-TODO: Link a la muestra aquí.

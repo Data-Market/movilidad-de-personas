@@ -1,6 +1,40 @@
-# Movilidad de Personas
+# Dataset de Movilidad de Personas
 
-Datos sobre la movilidad de personas en las diferentes ciudades de España. Este dataset se puede adquirir en [Data Market](https://datamarket.es/#movilidad-de-personas-dataset), plataforma de referencia de datos externos en España. Puede consultar nuestro catálogo de datos en la siguiente url: [datamarket.es](https://datamarket.es/)
+<table align="center">
+  <tbody>
+    <tr align="center">
+      <td width="33%">
+        <a href="https://github.com/Data-Market/movilidad-de-personas">
+          <img src="https://datamarket.es/media/images/movilidad-de-personas-image.png" style="max-width:100%;">
+        </a>
+      </td>
+      <td width="33%">
+        <a href="https://datamarket.es">
+          <img src="https://datamarket.es/static/core/img/logo-og.png" style="max-width:100%;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Descripción
+
+Datos sobre la __movilidad de personas en toda España__. Desplazamientos entre localidades y entre distritos con matriz de más de 2500 puntos de origen y destino. Este dataset ha sido creado enriqueciendo y limpiando los datos en bruto proporcionados por el Ministerio de Transportes, Movilidad y Agenda Urbana, en base al posicionamiento de teléfonos móviles.
+
+Las características de este dataset son las siguiente:
+
+* __Frecuencia de actualización__: diariamente, con un lag de 1-2 días
+* __Volumen estimado__: 3-5 millones de registros para cada día
+* __Histórico__: disponible desde Febrero de 2020 en adelante
+
+El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#movilidad-de-personas-dataset), plataforma de referencia de datos externos en España. 
+
+En este repositorio contiene los siguientes recursos:
+
+* La documentación completa del dataset.
+* Una muestra representativa (10%) del mismo disponible para su evaluación y uso gratuito.
+
+## Documentación
 
 A continuación se muestran las columnas de las que consta el dataset en el formato __nombre_columna__: __ejemplo_columna__, donde ejemplo_columna representa posibles valores que se pueden encontrar en dicha columna.
 
@@ -23,3 +57,7 @@ A continuación se muestran las columnas de las que consta el dataset en el form
 | distance             | str      | Intervalo de distancia (en kms) en el que se agrupan los desplazamientos.                                                             | 010-050                                                                                                                          |
 | n_trips              | int      | Número de desplazamientos de distancia comprendida en el intervalo "distance" que comienzan a la hora "hour_of_day".                                                                                 | 7706                                                                                                                             |
 | trips_km             | int      | Suma de los kms totales de los viajes realizados con inicio "hour_of_day" en el día "date".                                                                   | 310253                                                                                                                           |
+
+## Muestra
+
+TODO: Link a la muestra aquí.

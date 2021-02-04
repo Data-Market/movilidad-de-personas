@@ -1,21 +1,8 @@
 # Dataset de Movilidad de Personas
 
-<table align="center">
-  <tbody>
-    <tr align="center">
-      <td width="33%">
-        <a href="https://github.com/Data-Market/movilidad-de-personas">
-          <img src="https://datamarket.es/media/images/movilidad-de-personas-image.png" style="max-width:100%;">
-        </a>
-      </td>
-      <td width="33%">
-        <a href="https://datamarket.es">
-          <img src="https://datamarket.es/static/core/img/logo-og.png" style="max-width:100%;">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<a href="https://datamarket.es">
+  <img src="https://datamarket.es/static/core/img/banners/movilidad-de-personas-banner.png">
+</a>
 
 ## Descripción
 

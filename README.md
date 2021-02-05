@@ -45,7 +45,7 @@ A continuación se muestran las columnas de las que consta el dataset en el form
 | home_province_name | str | Provincia de residencia de las personas que están realizando un determinado desplazamiento. | Valencia | 
 | hour | int | Hora de inicio del desplazamiento. | 22 |
 | month | int | Mes en el que se produce el desplazamiento. | 12 |
-| n_trips | int | Número de desplazamientos de distancia comprendida en el intervalo "distance_km_interval" que comienzan a la hora "hour". | 19.558 |
+| n_trips | int | Número de desplazamientos de distancia comprendida en el intervalo "distance_km_interval" que comienzan a la hora "hour". | 20 |
 | origin_activity | str | Actividad que se deja de efectuar debido al desplazamiento. | Casa |
 | origin_autonomous_region_name | str | Nombre de la Comunidad Autónoma donde se inicia el desplazamiento. | Comunitat Valenciana |
 | origin_district_mitma_id | int | ID del lugar en el cual comienza un desplazamiento. Correspondiente a un distrito para ciudades grandes, municipios para ciudades medianas o agrupación de municipios en el caso de ser pequeños. | 03059 |
@@ -54,5 +54,5 @@ A continuación se muestran las columnas de las que consta el dataset en el form
 | origin_lon_centroid | geo | Longitud del centroide del punto inicio del desplazamiento. | -0.884140 |
 | origin_province_name | str | Nombre de la provincia de origen del desplazamiento. | Alicante/Alacant |
 | origin_town_name | str |  Nombre de la localidad donde se inicia el desplazamiento. En el caso de localidades pequeñas, puede incluir el nombre de varios pueblos de la región, separados por coma. | Albatera, San Isidro |
-| total_km_traveled | float | Suma de los kms totales de los viajes realizados con inicio "hour" en el día "date" para dicha combinación de origen, destino y tipología de desplazamiento. | 205.856 |
+| total_km_traveled | int | Suma de los kms totales de los viajes realizados con inicio "hour" en el día "date" para dicha combinación de origen, destino y tipología de desplazamiento. | 206 |
 | year | int | Año en el que se realiza el desplazamiento. | 2020 |

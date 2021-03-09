@@ -49,7 +49,7 @@ A continuación se muestran las columnas de las que consta el dataset junto con 
 | origin_activity | str | Actividad que se deja de efectuar debido al desplazamiento. | Casa |
 | origin_autonomous_region_name | str | Nombre de la Comunidad Autónoma donde se inicia el desplazamiento. | Comunitat Valenciana |
 | origin_district_mitma_id | int | ID del lugar en el cual comienza un desplazamiento. Correspondiente a un distrito para ciudades grandes, municipios para ciudades medianas o agrupación de municipios en el caso de ser pequeños. | 03059 |
-| origin_district_name | str | Nombre del distrito de la ciudad al que pertenece el área del origen del recorrido. Sólo está disponible para las ciudades de más de 500.000 habitantes.ora de inicio del desplazamiento. | None |
+| origin_district_name | str | Nombre del distrito de la ciudad al que pertenece el área del origen del recorrido. Sólo está disponible para las ciudades de más de 500.000 habitantes. | None |
 | origin_lat_centroid | geo | Latitud del centroide del punto inicio del desplazamiento. | 38.209278 |
 | origin_lon_centroid | geo | Longitud del centroide del punto inicio del desplazamiento. | -0.884140 |
 | origin_province_name | str | Nombre de la provincia de origen del desplazamiento. | Alicante/Alacant |

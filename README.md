@@ -12,7 +12,7 @@ Las características de este dataset son las siguientes:
 
 * __Frecuencia de actualización__: diariamente, con un lag de 1-2 días
 * __Volumen estimado__: 3-5 millones de registros cada día
-* __Histórico__: disponible desde Febrero de 2020 en adelante
+* __Histórico__: disponible desde febrero de 2020 en adelante
 
 El dataset completo se puede adquirir en [DataMarket](https://datamarket.es/#movilidad-de-personas-dataset), plataforma de referencia de datos externos en España. 
 

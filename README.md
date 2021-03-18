@@ -1,7 +1,7 @@
 # Dataset de Movilidad de Personas
 
 <a href="https://datamarket.es">
-  <img src="https://datamarket.es/static/core/img/banners/movilidad-de-personas-banner.png">
+  <img src="https://datamarket.es/media/banners/movilidad-de-personas-banner.png">
 </a>
 
 ## Descripción
